@@ -1,2 +1,2 @@
-# RNN-Music-Generator
-This Colab notebook builds a PyTorch PDF RAG system. It chunks PDF text via pypdf, embeds with all-MiniLM-L6-v2, and runs cosine search. TinyLlama-1.1B-Chat-v1.0 then answers queries using the retrieved PDF context.
+# PDF_RAG_Question_Answering
+A Retrieval-Augmented Generation (RAG) pipeline for question answering from PDF documents. Extracts and chunks PDF text, generates semantic embeddings using Sentence Transformers, retrieves relevant passages, and uses a Transformer model to generate answers.
